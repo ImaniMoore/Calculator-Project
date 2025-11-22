@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <nav>
+      <ul>
+        <li>Home</li>
+        <li>How to Use</li>
+        <li>Contact</li>
+      </ul>
+    </nav>
+
+    <section class="container">
+      <div id="calculator">
+        <form>
+          <div id="userInput"></div>
+        </form>
+
+        <div class="buttons">
+          <button
+            type="button"
+            value="operatorClick"
+            name="exponent"
+            onclick=""
+          >
+            ^
+          </button>
+          <button type="button" value="7" onclick="">7</button>
+          <button type="button" value="8" onclick="">8</button>
+          <button type="button" value="9" onclick="">9</button>
+          <button type="button" value="operatorClick" name="sqroot" onclick="">
+            √
+          </button>
+          <button type="button" value="operatorClick" name="squared" onclick="">
+            x²
+          </button>
+          <button type="button" value="4" onclick="">4</button>
+          <button type="button" value="5" onclick="">5</button>
+          <button type="button" value="6" onclick="">6</button>
+          <button
+            type="button"
+            value="operatorClick"
+            name="multiply"
+            onclick=""
+          >
+            X
+          </button>
+          <button type="button" value="operatorClick" name="divide" onclick="">
+            /
+          </button>
+          <button type="button" value="1" onclick="">1</button>
+          <button type="button" value="2" onclick="">2</button>
+          <button type="button" value="3" onclick="">3</button>
+          <button
+            type="button"
+            value="operatorClick"
+            name="subtract"
+            onclick=""
+          >
+            -
+          </button>
+          <button type="button" id="del" value="DELETE" onclick="">DEL</button>
+          <button type="button" id="clear" value="CLEAR" onclick="">C</button>
+          <button type="button" id="zero" value="0" onclick="">0</button>
+          <button type="button" id="float" value="." onclick="">.</button>
+          <button
+            type="button"
+            id="addition"
+            value="operatorClick"
+            name="addition"
+            onclick=""
+          >
+            +
+          </button>
+          <button type="submit" id="equal" class="operatorClick" onclick="">
+            =
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p>© 2025 Imani Moore's Calculator</p>
+    </footer>
+    <script src="index.js"></script>
+  </body>
+</html>
